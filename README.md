@@ -22,11 +22,11 @@ static files override those shipped with `coderedcms`. Also add `bootstrap4`.
 
 ```python
 INSTALLED_APPS = [
-    ...
+    ...,
     "coderedcms_bootstrap4",
     "coderedcms",
     "bootstrap4",
-    ...
+    ...,
 ]
 ```
 
