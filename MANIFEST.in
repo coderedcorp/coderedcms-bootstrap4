@@ -1,0 +1,4 @@
+include LICENSE README.md
+graft coderedcms_bootstrap4
+global-exclude __pycache__
+global-exclude *.py[co]
