@@ -31,7 +31,7 @@
       {% endfor %}
       {% endif %}
       {% if settings.coderedcms.LayoutSettings.navbar_search %}
-      <form class="form-inline ml-auto" action="{% url 'codered_search' %}" method="GET">
+      <form class="form-inline ml-auto" action="{% url 'crx_search' %}" method="GET">
           {% load bootstrap4 %}
           {% get_searchform request as form %}
           {% bootstrap_form form layout='inline' %}
