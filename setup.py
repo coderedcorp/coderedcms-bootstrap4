@@ -5,7 +5,7 @@ with open("README.md", encoding="utf8") as readme_file:
 
 setup(
     name="coderedcms-bootstrap4",
-    version="1.0.1",
+    version="1.0.2",
     author="CodeRed LLC",
     author_email="info@coderedcorp.com",
     url="https://github.com/coderedcorp/coderedcms-bootstrap4",
